@@ -1,0 +1,13 @@
+{
+  "name": "RandomKitties",
+  "displayName": "Random Kitties",
+  "expo": {
+    "name": "RandomKitties",
+    "slug": "expo-template-bare",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "version": "1.0.0",
+    "entryPoint": "node_modules/expo/AppEntry.js",
+    "platforms": ["ios", "android", "web"]
+  }
+}

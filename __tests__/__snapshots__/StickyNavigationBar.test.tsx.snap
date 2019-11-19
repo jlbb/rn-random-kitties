@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StickyNavigationBar renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flexDirection": "row",
+      "height": 70,
+      "position": "absolute",
+      "top": 0,
+      "width": "100%",
+      "zIndex": 2,
+    }
+  }
+>
+  Button here
+</View>
+`;

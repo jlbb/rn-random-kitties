@@ -1,0 +1,859 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders correctly 1`] = `
+<ForwardRef
+  title="Test Card"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "flex": 1,
+        "flexBasis": "auto",
+        "justifyContent": "center",
+        "marginBottom": 15,
+        "marginTop": 15,
+        "maxWidth": 300,
+        "width": "90%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "flex": 1,
+          "flexBasis": "auto",
+          "justifyContent": "center",
+          "marginBottom": 15,
+          "marginTop": 15,
+          "maxWidth": 300,
+          "width": "90%",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "",
+          }
+        }
+        style={
+          Object {
+            "backgroundColor": "slategray",
+            "flex": 1,
+            "minHeight": 150,
+            "width": "100%",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "",
+            }
+          }
+          style={
+            Object {
+              "backgroundColor": "slategray",
+              "flex": 1,
+              "minHeight": 150,
+              "width": "100%",
+            }
+          }
+        />
+      </Image>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "padding": 15,
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "padding": 15,
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 24,
+                "fontWeight": "bold",
+                "marginBottom": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 24,
+                  "fontWeight": "bold",
+                  "marginBottom": 10,
+                }
+              }
+            >
+              Test Card
+            </Text>
+          </Text>
+          <Text>
+            <Text>
+              Lorem impsum sin dolor
+            </Text>
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</ForwardRef>
+`;
+
+exports[`Card renders the controls passed by props 1`] = `
+<ForwardRef
+  controls={true}
+  controlsItem={
+    Array [
+      Object {
+        "action": [MockFunction],
+        "label": "Buton1",
+      },
+      Object {
+        "action": [MockFunction],
+        "label": "Buton2",
+      },
+    ]
+  }
+  title="Test Card"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "flex": 1,
+        "flexBasis": "auto",
+        "justifyContent": "center",
+        "marginBottom": 15,
+        "marginTop": 15,
+        "maxWidth": 300,
+        "width": "90%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "flex": 1,
+          "flexBasis": "auto",
+          "justifyContent": "center",
+          "marginBottom": 15,
+          "marginTop": 15,
+          "maxWidth": 300,
+          "width": "90%",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "",
+          }
+        }
+        style={
+          Object {
+            "backgroundColor": "slategray",
+            "flex": 1,
+            "minHeight": 150,
+            "width": "100%",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "",
+            }
+          }
+          style={
+            Object {
+              "backgroundColor": "slategray",
+              "flex": 1,
+              "minHeight": 150,
+              "width": "100%",
+            }
+          }
+        />
+      </Image>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "padding": 15,
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "padding": 15,
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 24,
+                "fontWeight": "bold",
+                "marginBottom": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 24,
+                  "fontWeight": "bold",
+                  "marginBottom": 10,
+                }
+              }
+            >
+              Test Card
+            </Text>
+          </Text>
+          <Text>
+            <Text>
+              Lorem impsum sin dolor
+            </Text>
+          </Text>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginTop": 10,
+                }
+              }
+            >
+              <View
+                key="key-cardcontrol-0"
+                style={
+                  Object {
+                    "flex": 1,
+                    "marginLeft": 5,
+                    "marginRight": 5,
+                    "maxWidth": "100%",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "marginLeft": 5,
+                      "marginRight": 5,
+                      "maxWidth": "100%",
+                    }
+                  }
+                >
+                  <ButtonRK
+                    onButtonPress={[MockFunction]}
+                    title="Buton1"
+                    type="DEFAULT"
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "flex": 1,
+                          }
+                        }
+                      >
+                        <TouchableHighlight
+                          activeOpacity={0.85}
+                          delayPressOut={100}
+                          onPress={[Function]}
+                          style={
+                            Array [
+                              Object {
+                                "alignItems": "center",
+                                "backgroundColor": "#984fa0",
+                                "flexDirection": "row",
+                                "height": "100%",
+                                "justifyContent": "center",
+                                "minHeight": 50,
+                              },
+                              Object {
+                                "backgroundColor": "#984fa0",
+                              },
+                            ]
+                          }
+                          underlayColor="black"
+                        >
+                          <View
+                            accessible={true}
+                            isTVSelectable={true}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Array [
+                                Object {
+                                  "alignItems": "center",
+                                  "backgroundColor": "#984fa0",
+                                  "flexDirection": "row",
+                                  "height": "100%",
+                                  "justifyContent": "center",
+                                  "minHeight": 50,
+                                },
+                                Object {
+                                  "backgroundColor": "#984fa0",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              accessible={true}
+                              isTVSelectable={true}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Array [
+                                  Object {
+                                    "alignItems": "center",
+                                    "backgroundColor": "#984fa0",
+                                    "flexDirection": "row",
+                                    "height": "100%",
+                                    "justifyContent": "center",
+                                    "minHeight": 50,
+                                  },
+                                  Object {
+                                    "backgroundColor": "#984fa0",
+                                  },
+                                ]
+                              }
+                            >
+                              <Text
+                                style={
+                                  Array [
+                                    Object {
+                                      "color": "#f5f5f5",
+                                      "fontSize": 18,
+                                      "textTransform": "uppercase",
+                                    },
+                                    Object {
+                                      "color": "#f5f5f5",
+                                      "fontSize": 16,
+                                    },
+                                  ]
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "#f5f5f5",
+                                        "fontSize": 18,
+                                        "textTransform": "uppercase",
+                                      },
+                                      Object {
+                                        "color": "#f5f5f5",
+                                        "fontSize": 16,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  Buton1
+                                </Text>
+                              </Text>
+                            </View>
+                          </View>
+                        </TouchableHighlight>
+                      </View>
+                    </View>
+                  </ButtonRK>
+                </View>
+              </View>
+              <View
+                key="key-cardcontrol-1"
+                style={
+                  Object {
+                    "flex": 1,
+                    "marginLeft": 5,
+                    "marginRight": 5,
+                    "maxWidth": "100%",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "marginLeft": 5,
+                      "marginRight": 5,
+                      "maxWidth": "100%",
+                    }
+                  }
+                >
+                  <ButtonRK
+                    onButtonPress={[MockFunction]}
+                    title="Buton2"
+                    type="PRIMARY"
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "flex": 1,
+                          }
+                        }
+                      >
+                        <TouchableHighlight
+                          activeOpacity={0.85}
+                          delayPressOut={100}
+                          onPress={[Function]}
+                          style={
+                            Array [
+                              Object {
+                                "alignItems": "center",
+                                "backgroundColor": "#984fa0",
+                                "flexDirection": "row",
+                                "height": "100%",
+                                "justifyContent": "center",
+                                "minHeight": 50,
+                              },
+                              Object {
+                                "backgroundColor": "#229a80",
+                              },
+                            ]
+                          }
+                          underlayColor="black"
+                        >
+                          <View
+                            accessible={true}
+                            isTVSelectable={true}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Array [
+                                Object {
+                                  "alignItems": "center",
+                                  "backgroundColor": "#984fa0",
+                                  "flexDirection": "row",
+                                  "height": "100%",
+                                  "justifyContent": "center",
+                                  "minHeight": 50,
+                                },
+                                Object {
+                                  "backgroundColor": "#229a80",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              accessible={true}
+                              isTVSelectable={true}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Array [
+                                  Object {
+                                    "alignItems": "center",
+                                    "backgroundColor": "#984fa0",
+                                    "flexDirection": "row",
+                                    "height": "100%",
+                                    "justifyContent": "center",
+                                    "minHeight": 50,
+                                  },
+                                  Object {
+                                    "backgroundColor": "#229a80",
+                                  },
+                                ]
+                              }
+                            >
+                              <Text
+                                style={
+                                  Array [
+                                    Object {
+                                      "color": "#f5f5f5",
+                                      "fontSize": 18,
+                                      "textTransform": "uppercase",
+                                    },
+                                    Object {
+                                      "color": "#f5f5f5",
+                                      "fontSize": 16,
+                                    },
+                                  ]
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "#f5f5f5",
+                                        "fontSize": 18,
+                                        "textTransform": "uppercase",
+                                      },
+                                      Object {
+                                        "color": "#f5f5f5",
+                                        "fontSize": 16,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  Buton2
+                                </Text>
+                              </Text>
+                            </View>
+                          </View>
+                        </TouchableHighlight>
+                      </View>
+                    </View>
+                  </ButtonRK>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</ForwardRef>
+`;
+
+exports[`Card renders with 1 control by default 1`] = `
+<ForwardRef
+  controls={true}
+  title="Test Card"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "flex": 1,
+        "flexBasis": "auto",
+        "justifyContent": "center",
+        "marginBottom": 15,
+        "marginTop": 15,
+        "maxWidth": 300,
+        "width": "90%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "flex": 1,
+          "flexBasis": "auto",
+          "justifyContent": "center",
+          "marginBottom": 15,
+          "marginTop": 15,
+          "maxWidth": 300,
+          "width": "90%",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "",
+          }
+        }
+        style={
+          Object {
+            "backgroundColor": "slategray",
+            "flex": 1,
+            "minHeight": 150,
+            "width": "100%",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "",
+            }
+          }
+          style={
+            Object {
+              "backgroundColor": "slategray",
+              "flex": 1,
+              "minHeight": 150,
+              "width": "100%",
+            }
+          }
+        />
+      </Image>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "padding": 15,
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "padding": 15,
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 24,
+                "fontWeight": "bold",
+                "marginBottom": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 24,
+                  "fontWeight": "bold",
+                  "marginBottom": 10,
+                }
+              }
+            >
+              Test Card
+            </Text>
+          </Text>
+          <Text>
+            <Text>
+              Lorem impsum sin dolor
+            </Text>
+          </Text>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginTop": 10,
+                }
+              }
+            >
+              <View
+                key="key-cardcontrol-0"
+                style={
+                  Object {
+                    "flex": 1,
+                    "marginLeft": 5,
+                    "marginRight": 5,
+                    "maxWidth": "100%",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "marginLeft": 5,
+                      "marginRight": 5,
+                      "maxWidth": "100%",
+                    }
+                  }
+                >
+                  <ButtonRK
+                    onButtonPress={[Function]}
+                    title="Button1"
+                    type="DEFAULT"
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "flex": 1,
+                          }
+                        }
+                      >
+                        <TouchableHighlight
+                          activeOpacity={0.85}
+                          delayPressOut={100}
+                          onPress={[Function]}
+                          style={
+                            Array [
+                              Object {
+                                "alignItems": "center",
+                                "backgroundColor": "#984fa0",
+                                "flexDirection": "row",
+                                "height": "100%",
+                                "justifyContent": "center",
+                                "minHeight": 50,
+                              },
+                              Object {
+                                "backgroundColor": "#984fa0",
+                              },
+                            ]
+                          }
+                          underlayColor="black"
+                        >
+                          <View
+                            accessible={true}
+                            isTVSelectable={true}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Array [
+                                Object {
+                                  "alignItems": "center",
+                                  "backgroundColor": "#984fa0",
+                                  "flexDirection": "row",
+                                  "height": "100%",
+                                  "justifyContent": "center",
+                                  "minHeight": 50,
+                                },
+                                Object {
+                                  "backgroundColor": "#984fa0",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              accessible={true}
+                              isTVSelectable={true}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Array [
+                                  Object {
+                                    "alignItems": "center",
+                                    "backgroundColor": "#984fa0",
+                                    "flexDirection": "row",
+                                    "height": "100%",
+                                    "justifyContent": "center",
+                                    "minHeight": 50,
+                                  },
+                                  Object {
+                                    "backgroundColor": "#984fa0",
+                                  },
+                                ]
+                              }
+                            >
+                              <Text
+                                style={
+                                  Array [
+                                    Object {
+                                      "color": "#f5f5f5",
+                                      "fontSize": 18,
+                                      "textTransform": "uppercase",
+                                    },
+                                    Object {
+                                      "color": "#f5f5f5",
+                                      "fontSize": 16,
+                                    },
+                                  ]
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "#f5f5f5",
+                                        "fontSize": 18,
+                                        "textTransform": "uppercase",
+                                      },
+                                      Object {
+                                        "color": "#f5f5f5",
+                                        "fontSize": 16,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  Button1
+                                </Text>
+                              </Text>
+                            </View>
+                          </View>
+                        </TouchableHighlight>
+                      </View>
+                    </View>
+                  </ButtonRK>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</ForwardRef>
+`;

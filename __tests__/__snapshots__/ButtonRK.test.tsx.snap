@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonRK renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <TouchableHighlight
+    activeOpacity={0.85}
+    delayPressOut={100}
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#984fa0",
+          "flexDirection": "row",
+          "height": "100%",
+          "justifyContent": "center",
+          "minHeight": 50,
+        },
+        Object {
+          "backgroundColor": "#984fa0",
+        },
+      ]
+    }
+    underlayColor="black"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#f5f5f5",
+            "fontSize": 18,
+            "textTransform": "uppercase",
+          },
+          Object {
+            "color": "#f5f5f5",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      Click me!
+    </Text>
+  </TouchableHighlight>
+</View>
+`;
+
+exports[`ButtonRK renders with PRIMARY type style 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <TouchableHighlight
+    activeOpacity={0.85}
+    delayPressOut={100}
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#984fa0",
+          "flexDirection": "row",
+          "height": "100%",
+          "justifyContent": "center",
+          "minHeight": 50,
+        },
+        Object {
+          "backgroundColor": "#229a80",
+        },
+      ]
+    }
+    underlayColor="black"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#f5f5f5",
+            "fontSize": 18,
+            "textTransform": "uppercase",
+          },
+          Object {
+            "color": "#f5f5f5",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      Click me
+    </Text>
+  </TouchableHighlight>
+</View>
+`;
