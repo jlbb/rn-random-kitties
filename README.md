@@ -22,7 +22,7 @@ The stack and technologies used are:
 
 1. `sudo yarn run web` will start the Expo service
 
-1. From there you can run the web, as also the android and ios emulators (or use the QR code from the Expo client app on your real device)
+1. From there you can run the web, as also the android and ios emulators (or use the QR code from the Expo client app on your real device https://expo.io/tools#client)
 
 **User Experience**
 
